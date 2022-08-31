@@ -17,6 +17,7 @@ Clone the repository:
 Navigate to the directory and run:
 
     composer install
+    npm install
 
 Copy the example .env file:
 
