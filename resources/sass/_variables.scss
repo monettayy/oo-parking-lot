@@ -1,0 +1,76 @@
+
+// Body
+$body-bg: #f8fafc;
+
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "Bebas";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Norican";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+// Typography
+$font-family-sans-serif: "Bebas", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66D9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+
+$primary:#0B1C48;
+$secondary:#009cff;
+$danger:#bf1439;
+$light: #7f8c8d;
+$bg:#E2EDDD;
+$p:#304FC1;
+$s:#B3CAF0;
+$d:#ff576f;
+$g: #14b6b0;
+$w: #fef7ea;
+
+
+.custom-radio .custom-control-input:checked~.custom-control-label::before{
+ background-color: $primary !important;   
+ padding:3px;
+ border:3px solid $primary;
+}

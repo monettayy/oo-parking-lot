@@ -1,0 +1,31 @@
+Guidelines for Camsurvax ID
+
+1. Fully Vaccinated Individuals
+2. Personal Information
+    * First, Middle, Last Name are REQUIRED (Middle Initial not approve)
+    * Birthdate / Age (Atleast 12 years old)
+    * Contact No
+    * Gender
+3. Address
+    * Municipality
+    * Barangay (If Street field has the Barangay, transfer it to Barangay field)
+4. Vaccination Details
+    * 1st & 2nd Dose must be Completed EXCEPT FOR JANSSEN (One Dose only)
+    * SAME Vaccine Brand / Manufacturer
+    * 1st Dose Date must not be later than 2nd Dose Date
+    * Lot No
+    * Batch No can be N/A or Blank
+    * Vaccinator Name
+    - Incase Vaccinator has no E-SIGNATURE, take note of the Vaccinator's Name and report to Supervisor. (For Uploading of E-Signature purpose)
+5. Photo
+    * Clear & Identifiable
+    * COLORED (Not Black n White, Sepia, etc)
+    * Tilted head either in an up/down or left/right direction should not be approved
+    * Shades / Colored Eyeglass is NOT AQLLOWED; Clear Reading Eyeglass is ALLOWED
+    * Shirtless / Topless is NOT ALLOWED; Sleeveless is ALLOWED (crop if possible)
+    * Mouth covered with Facemask is NOT ALLOWED
+    * Can be cropped
+    - If passed the items above:
+        * IMPORTANT: Crop & Resize Photo to 300x300 pixels
+        * Mid points of the mouth and the bridge of the nose should lie on an imaginary vertical line in the center of the image
+        - White Background if possible only

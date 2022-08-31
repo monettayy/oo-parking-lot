@@ -1,0 +1,320 @@
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bebas";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Norican";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #0B1C48 !important;
+  padding: 3px;
+  border: 3px solid #0B1C48;
+}
+
+#landing-page .mini-card-banner::before {
+  position: absolute;
+  bottom: 0;
+  content: " ";
+  height: 70%;
+  width: 100%;
+  background-color: #0B1C48;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+#landing-page .mini-card-banner.full::before {
+  position: absolute;
+  bottom: 0;
+  content: " ";
+  height: 100%;
+  width: 100%;
+  background-color: #0B1C48;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+#landing-page .carousel-indicators {
+  right: unset !important;
+}
+
+#landing-page .mini-card-banner.full {
+  justify-content: center !important;
+}
+
+#landing-page .mini-card-banner.full img {
+  width: 60% !important;
+  height: auto !important;
+}
+
+#landing-page .mini-card-banner {
+  position: relative;
+  height: 250px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  overflow: visible;
+  border-radius: 10px;
+}
+
+#landing-page .mini-card-banner img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  z-index: 1;
+}
+
+@media (max-width: 1199px) {
+  #landing-page .bg-landing-1,
+  #landing-page .bg-landing-2 {
+    background-size: 6 5%;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 1000px) {
+  #landing-page .bg-landing-1,
+  #landing-page .bg-landing-2 {
+    background-size: 75%;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+  }
+
+  #landing-page .bg-landing .row {
+    align-items: flex-start !important;
+  }
+}
+
+@media (max-width: 600px) {
+  #landing-page .bg-landing-1,
+  #landing-page .bg-landing-2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+
+  #landing-page .bg-landing .row {
+    align-items: flex-start !important;
+  }
+}
+
+#landing-page .hero-title {
+  font-weight: bold;
+  font-size: 2.2rem !important;
+  line-height: 1 !important;
+}
+
+#landing-page .font-norican {
+  font-family: "Norican" !important;
+}
+
+#landing-page .font-bebas {
+  font-family: "Bebas" !important;
+}
+
+#landing-page .font-montserrat {
+  font-family: "Montserrat" !important;
+}
+
+#landing-page .font-roboto {
+  font-family: "Roboto" !important;
+}
+
+#landing-page .service-cards {
+  height: 70%;
+}
+
+#landing-page .landing-card {
+  position: relative;
+  overflow: visible;
+  width: 100%;
+  height: 300px;
+  min-height: 345px;
+  padding: 30px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+#landing-page .landing-card .card-icon {
+  min-height: 100px;
+  width: 100%;
+}
+
+#landing-page .landing-card .card-icon img {
+  width: 70%;
+}
+
+#landing-page .landing-card .card-body {
+  width: 100%;
+}
+
+#landing-page .hero-img {
+  width: 100%;
+  -o-object-fit: scale-down !important;
+     object-fit: scale-down !important;
+}
+
+#landing-page .app-hero,
+#landing-page .app-hero-sm,
+#landing-page .app-hero-lg {
+  overflow: hidden;
+}
+
+#landing-page .app-hero .carousel,
+#landing-page .app-hero .carousel-inner,
+#landing-page .app-hero .carousel-item,
+#landing-page .app-hero .row,
+#landing-page .app-hero-sm .carousel,
+#landing-page .app-hero-sm .carousel-inner,
+#landing-page .app-hero-sm .carousel-item,
+#landing-page .app-hero-sm .row,
+#landing-page .app-hero-lg .carousel,
+#landing-page .app-hero-lg .carousel-inner,
+#landing-page .app-hero-lg .carousel-item,
+#landing-page .app-hero-lg .row {
+  height: 100%;
+}
+
+@media (max-width: 910px) {
+  #landing-page .hero-title {
+    font-family: "Bebas";
+    font-weight: bold;
+    font-size: 2.4rem !important;
+    line-height: 1.3 !important;
+  }
+
+  #landing-page .landing-steps {
+    padding: 0 3vw !important;
+  }
+
+  #landing-page .app-landing {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+
+  #landing-page .app-landing .navbar {
+    padding: 1rem 0.3rem;
+  }
+
+  #landing-page .app-landing .navbar .app-header-logo {
+    width: 150px;
+  }
+
+  #landing-page .landing-card {
+    margin-bottom: 10px;
+    padding: 0 10px;
+  }
+
+  #landing-page .landing-card .card-icon {
+    height: 150px;
+    width: 100%;
+    border-radius: 0;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #landing-page .landing-card .card-icon img {
+    width: 90px;
+  }
+
+  #landing-page .landing-card .card-label {
+    padding: 5px !important;
+  }
+
+  #landing-page .landing-card .card-label h5 {
+    -webkit-line-clamp: 10;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    font-weight: 600;
+  }
+
+  #landing-page .landing-card .card-label h1 {
+    text-align: left !important;
+  }
+
+  #landing-page .service-cards {
+    height: calc(100% - 97px);
+  }
+
+  #landing-page .app-hero,
+  #landing-page .app-hero-sm,
+  #landing-page .app-hero-lg {
+    height: 90vh !important;
+  }
+
+  #landing-page .app-hero .hero-img,
+  #landing-page .app-hero-sm .hero-img,
+  #landing-page .app-hero-lg .hero-img {
+    width: 100%;
+  }
+
+  #landing-page .app-hero .carousel-inner .carousel-item .row,
+  #landing-page .app-hero-sm .carousel-inner .carousel-item .row,
+  #landing-page .app-hero-lg .carousel-inner .carousel-item .row {
+    height: 100%;
+  }
+
+  #landing-page .card .card-header,
+  #landing-page .card .card-body {
+    padding: 20px !important;
+  }
+}
+
+#landing-page .landing-steps {
+  margin-top: 20vh;
+  padding: 0 12vw;
+}
+
+@media (max-width: 450px) {
+  #landing-page .bg-landing h2,
+  #landing-page .bg-landing a {
+    font-size: 15px !important;
+  }
+
+  #landing-page .bg-landing h1 {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #landing-page .navbar-top .navbar-collapse {
+    flex-direction: column !important;
+  }
+
+  #landing-page .navbar-top .navbar-collapse a {
+    margin-bottom: 10px;
+  }
+}
+
