@@ -74,8 +74,11 @@ class Parking extends Model
             // reset
             $minutes = round($total_minutes % 60, 2);
 
-            $computed_amount = (ceil($hrmin) * $charge_rate);
-        }else{
+            // flat rate
+            $hr = ceil($hrmin) - 3;
+
+            $computed_amount += ($hr * $charge_rate);
+        }else{ // less than 3
             $hours = ceil($total_hours);
             
             $minutes = round($total_minutes % 60, 2);

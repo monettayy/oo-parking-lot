@@ -114,23 +114,28 @@ class ParkingController extends Controller
         // search for parking space
         // search for available slot_type
         $slot_types = $vehicle->vehicle_type->slot_type_arr;
-        foreach ($slot_types as $slot_type) {
+        // foreach ($slot_types as $slot_type) {
             $slots = Slot::where('entrance_id', $input['entrance_id'])
-                        ->where('slot_type_id', $slot_type)
+                        ->whereIn('slot_type_id', $vehicle->vehicle_type->slot_type_arr)
                         ->with(['slot_type'])
+                        ->orderBy('distance', 'ASC')
                         ->get();
     
             $available_slot = null;
             foreach ($slots as $slot) {
+                // if($slot->availability && $slot->availability['status'] == 1){
+                //     $available_slot = $slot;
+                //     break;
+                // }
                 if($slot->availability && $slot->availability['status'] == 1){
                     $available_slot = $slot;
                     break;
                 }
             }
-            if ($available_slot) {
-                break;
-            }
-        }
+            // if ($available_slot) {
+            //     break;
+            // }
+        // }
 
         if($available_slot){
             // save to parkings
